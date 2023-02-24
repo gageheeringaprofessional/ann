@@ -1,4 +1,4 @@
-***** How to run your program with the training sets you provided
+# How to run your program with the training sets you provided
 Given XSquaredNetwork.java, MultilayerPerceptron.java, and TrainingSetGenerator.java, use Eclipse and simply run.
 
 Alternatively: 
@@ -7,7 +7,7 @@ Alternatively:
 3) Run: java XSquaredNetwork
 
 
-***** How to change the training sets
+# How to change the training sets
 In XSquaredNetwork.java, go to the main method.  The default training sets are defined as:	
 	XSquaredExample[] examples = new XSquaredExample[]{ ... };
 	
@@ -15,7 +15,7 @@ You may edit these training sets and add others.
 To generate random tests, you may use the TrainingSetGenerator class.
 
 
-***** How to graph the results
+# How to graph the results
 In XSquaredNetwork.java, go to the main method.  Uncomment the following line at the end of main:
 			//x.generatePoints();
 
@@ -58,7 +58,7 @@ Now highlight columns A and B.
 ->Click OK twice
 
 
-***** How to change the network structure
+# How to change the network structure
 In XSquaredNetwork.java, go to the main method.  In the first line, the network is created:
 			XSquaredNetwork x = new XSquaredNetwork(2, 5, 1);
 			
